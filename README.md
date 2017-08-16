@@ -20,6 +20,10 @@ Considerations:
 -TreeMap due to its native sorting and appropriateness for use case
 -Inheritance between Group and it's child classes due to common behavior
 
+Third party libraries:
+----------------------
+-commons-io:2.5 for its FileUtils - file opening, writing, reading and closing is management implicitly by the library
+
 Output:
 -------
 <Group>(count): <item1>, <item2>, ...
