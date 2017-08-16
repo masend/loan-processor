@@ -10,3 +10,18 @@ To run this application follow the steps below:
 3. run the following command: ./loan-processor.sh "<full/input/file/path>" "<full/out/file/path>"
 
    e.g. ./loan-processor.sh "/User/test/Jumo World Assessment.csv" "/User/test/Output.csv"
+
+
+Considerations:
+----------------
+-used maven for managing dependencies and packaging
+-bash script for simplifying command line interactions with the application and checking input
+-java as the programming language due to familiarity and it's capability with file io. 
+-TreeMap due to its native sorting and appropriateness for use case
+-Inheritance between Group and it's child classes due to common behavior
+
+Output:
+-------
+<Group>(count): <item1>, <item2>, ...
+.....
+Badinput(count) 
