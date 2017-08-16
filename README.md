@@ -15,10 +15,15 @@ To run this application follow the steps below:
 Considerations:
 ----------------
 -used maven for managing dependencies and packaging
+
 -bash script for simplifying command line interactions with the application and checking input
+
 -java as the programming language due to familiarity and it's capability with file io. 
+
 -TreeMap due to its native sorting and appropriateness for use case
+
 -Inheritance between Group and it's child classes due to common behavior
+
 
 Third party libraries:
 ----------------------
